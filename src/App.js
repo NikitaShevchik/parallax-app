@@ -4,8 +4,9 @@ import Welcome from './components/elements/welcome/Welcome';
 
 function App() {
   window.addEventListener('scroll', e => {
-    document.body.style.cssText = `--scrollTop: ${window.scrollY}px`;
+    document.body.style.cssText += `--scrollTop: ${window.scrollY}px`;
   })
+
   return (
     <div className={styles.app}>
       <Welcome />
