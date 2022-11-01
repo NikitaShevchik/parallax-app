@@ -16,7 +16,7 @@ const Article = () => {
                 </div>
             </div>
             <div className={styles.article__copyright}>
-                © Nikita Shevchik
+                ©Nikita Shevchik
             </div>
         </div>
     )
